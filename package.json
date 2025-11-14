@@ -1,11 +1,15 @@
 {
   "name": "lect-6-backend",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Anoop",
   "license": "ISC",
-  "description": ""
+  "description": "a backend related video",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
